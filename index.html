@@ -6,7 +6,7 @@
 :root{--bg:#F7F7F2;--ink:#172B30;--accent:#24535A;--muted:#5F706E;--line:#DCE4E1}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif}
 header,main,footer{max-width:1080px;margin:auto;padding-left:28px;padding-right:28px}header{padding-top:27px;padding-bottom:27px;display:flex;align-items:center;justify-content:space-between}
-.logo{font-weight:800;font-size:20px;letter-spacing:-.5px}a{text-decoration:none;color:inherit}.nav{font-size:13px;border:1px solid var(--line);border-radius:8px;padding:11px 15px}
+.logo{display:inline-flex;align-items:center;line-height:1}.brandmark{display:block;width:110px;height:auto;overflow:visible}a{text-decoration:none;color:inherit}.nav{font-size:13px;border:1px solid var(--line);border-radius:8px;padding:11px 15px}
 .hero{padding:75px 0 54px}.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.7px;color:#24535A;font-weight:800}
 h1,h2,h3{font-family:Georgia,'Times New Roman',serif;letter-spacing:-.045em}h1{font-size:clamp(47px,7.2vw,83px);line-height:1.07;max-width:980px;margin:19px 0 23px}h1 span{color:var(--accent)}
 h2{font-size:clamp(32px,4.2vw,51px);line-height:1.13;margin:15px 0 20px}h3{font-size:24px;margin:14px 0 10px}
@@ -20,7 +20,7 @@ h2{font-size:clamp(32px,4.2vw,51px);line-height:1.13;margin:15px 0 20px}h3{font-
 .terms{font-size:14px;line-height:1.8;color:#435B5A}.terms strong{color:var(--ink)}footer{padding-top:30px;padding-bottom:45px;color:#70817D;font-size:12px}
 @media(max-width:700px){.hero{padding:55px 0 44px}.section{padding:50px 0}.exgrid,.grid,.offer{grid-template-columns:1fr}.offer{padding:24px}.example{padding:21px}.nav{font-size:12px}}
 </style></head><body>
-<header><a href="/" class="logo">viro.</a><a class="nav" href="#reserve">Founding access</a></header>
+<header><a href="/" class="logo" aria-label="Viro home"><svg class="brandmark" viewBox="0 0 258 110" role="img" aria-label="viro." xmlns="http://www.w3.org/2000/svg"><text x="4" y="89" font-family="Arial,Helvetica,sans-serif" font-weight="900" font-size="94" letter-spacing="-6" fill="#172B30">viro</text><path d="M161 76 Q185 76 205 52 L228 23" fill="none" stroke="#B86D43" stroke-width="7" stroke-linecap="round"/><path d="M215 25 L235 13 L233 38 Z" fill="#B86D43"/><path d="M179 70 V59 H187 V70 M191 70 V52 H199 V70 M203 67 V45 H211 V59" fill="#B86D43"/><circle cx="246" cy="85" r="8" fill="#B86D43"/></svg></a><a class="nav" href="#reserve">Founding access</a></header>
 <main>
 <section class="hero"><div class="eyebrow">Prelaunch · Founding access</div>
 <h1>Make your brand <span>understood by AI.</span></h1>
